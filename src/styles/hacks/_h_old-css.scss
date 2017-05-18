@@ -1,0 +1,275 @@
+body {
+  color: #333;
+}
+a:link {
+  text-decoration: none;
+}
+.post-excerpt h2 {
+  font-size: 18px;
+  line-height: 24px;
+}
+.post-excerpt h3 {
+  font-size: 14px;
+  line-height: 18px;
+}
+h3, h4 {
+  padding: 0 0 5px 0;
+}
+h4, .rsswidget a {
+  line-height: 18px;
+  font-size: 14px;
+  font-weight: bold;
+}
+div.divider {
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+.duration, .dtstart, .dtend {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 18px;
+}
+
+header {
+  padding: 14px 0 12px 0;
+  border-top: 4px solid #818591;/*background: rgb(255, 255, 255);
+background: -moz-linear-gradient(90deg, rgb(255, 255, 255) 61%, rgb(230, 230, 230) 100%);
+background: -webkit-linear-gradient(90deg, rgb(255, 255, 255) 61%, rgb(230, 230, 230) 100%);
+background: -o-linear-gradient(90deg, rgb(255, 255, 255) 61%, rgb(230, 230, 230) 100%);
+background: -ms-linear-gradient(90deg, rgb(255, 255, 255) 61%, rgb(230, 230, 230) 100%);
+background: linear-gradient(180deg, rgb(255, 255, 255) 61%, rgb(230, 230, 230) 100%);*/
+}
+
+.widget .title {text-transform: uppercase; font-weight: bold;}
+
+#menu-main li {
+  font-size: 15px;
+  text-transform: none;
+  font-weight: bold;
+}
+#menu-main a {
+  color: #fff;
+  padding: 4px 10px 14px;
+}
+#nav-main-menu .dropdown ul {
+  width: 190px; /* left offset of submenus need to match (see below) */
+  background: #003366;
+  border-top: solid 0px #A0B739;
+}
+#nav-main-menu .dropdown ul li {
+  border-right: 0;
+  border-bottom: solid 1px #003366;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0;
+  padding: 0;
+  text-transform: none;
+  width: 100%;
+  z-index: 200;
+}
+#nav-main-menu .dropdown ul li a {
+  padding:6px 12px;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-bottom: none;
+}
+#nav-main-menu ul.dropdown li li:hover ul,
+#nav-main-menu ul.dropdown li li.sfHover ul {
+  left:			190px; /* match ul width */
+  top:			0;
+}
+#menu-main li li a {
+  background-color: #2e4f89;
+  color: #fff;
+}
+#menu-main li a:hover, #menu-main li li a:hover {
+  color: #fff;
+}
+#menu-main li li a:active, #menu-main li li a:hover, #menu-main li li a:hover {
+  color: #fff;
+  background-color: #003366;
+}
+#nav-main-menu .dropdown li:hover ul, #nav-main-menu .dropdown li.sfHover ul {
+  top: 36px; /* match top ul list item height */
+}
+#menu-main a:hover, #menu-main li.current-menu-item a, #menu-main a:active, #menu-main li.current-item a {
+  color: #fff;
+  background-color: #003366;
+}
+.wpzoom-featured-post .post-excerpt {
+  opacity: 0.8;
+}
+#main .widget-blue {
+  border-top-color: #A0B739;
+}
+#main .widget-gold, #main .widget_rss, #main .widget_nav_menu {
+  background-color: #E5EDDC;
+  border-top-width: 6px;
+  border-top-style: solid;
+  border-top-color: #A0B739;
+  border-right-width-value: 0px;
+  border-right-style-value: none;
+  border-bottom-width: 0px;
+  border-bottom-style: none;
+  color: #675314;
+}
+#menu-koonz-award li, .widget_nav_menu li {
+  font-weight: bold;
+  font-size: 14px;
+  list-style-type: square;
+  color: #A0B739;
+}
+#main .tribe-events-list-widget {
+  background-color: #003366;
+  border-top-width: 6px;
+  border-top-style: solid;
+  border-top-color: #A0B739;
+  border-right-width-value: 0px;
+  border-right-style-value: none;
+  border-bottom-width: 0px;
+  border-bottom-style: none;
+  color: #a7c7e7;
+}
+#footer-copy .wpzoom
+{
+  display: none;
+  float: right;
+}
+/* Widget */
+.widget-gold .title {
+  color: #003366;
+}
+.widget_rss ul, .twitter-list li {
+  list-style: none;
+  padding-left: 0;
+}
+.widget_rss li {
+  padding: 0 0 20px 0;
+  font-weight: bold;
+}
+#ngg-images-2 img {
+  margin: 4px;
+}
+/* Category Columns */
+.archives-columns-one .post-cover {
+  display: inline;
+  float: left;
+  margin-right: 4.3280%;
+  width: 27.8359%;
+}
+.archives-columns-one .post-excerpt {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 67.8359%;
+}
+/* Events Manager */
+.tribe-events-list-widget .title, .tribe-events-list-widget a {
+  color: #ffffff;
+}
+.tribe-events-list-widget-events {
+  margin: 0;
+  padding: 0;
+  line-height: 8px;
+}
+.tribe-events-page-title {
+  font-size: 18px !important;
+}
+h2.tribe-events-list-event-title {
+  font-size: 18px !important;
+  line-height: 16px !important;
+}
+.tribe-events-list-separator-month {
+  font-size: 16px !important;
+  text-transform: uppercase !important;
+}
+.time-details {
+  font-size: 15px;
+}
+.tribe-events-list .vevent.hentry {
+  padding-top: .8em;
+}
+.tribe-events-list .vevent.hentry {
+  padding-top: 0em;
+}
+.tribe-events-list-separator-month + .vevent.hentry.tribe-events-first {
+  padding-top: 0em;
+}
+.single-tribe_events h2.tribe-events-single-event-title {
+  color: #003366;
+  font-size: 22px;
+}
+.single-tribe_events .tribe-events-schedule h3 {
+  font-size: 16px;
+}
+.tribe-events-event-image {
+  float: left;
+  padding-right: 12px;
+}
+.events-list .tribe-events-loop, .tribe-events-day .tribe-events-loop, .single-tribe_venue .tribe-events-loop, .single-tribe_organizer .tribe-events-loop
+{
+  max-width: 800px;
+}
+.tribe-events-list .tribe-events-event-image
+{
+  float: left;
+  width: 20%;
+  margin-top: 0px;
+  margin-right: 0%;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.tribe-events-single-section {
+  clear: both;
+}
+
+.gw-gopf-portrait {
+}
+.gw-gopf-post-meta {
+  color: #666 !important;
+  font-size: 12px !important;
+}
+.gw-gopf-post-title a {
+  color: #003366 !important;
+}
+.gw-gopf-post-content-people {
+  min-height: 130px;
+  text-align: center;
+}
+.gw-gopf-post-content-research {
+  min-height: 60px;
+  text-align: center;
+}
+.gw-gopf-post-content-films {
+  min-height: 85px;
+}
+#gw_go_portfolio_people .gw-gopf-style-vario .gw-gopf-post-title h6
+{
+  color: #9fb739;
+  font-family: inherit;
+  font-size: 15px;
+  margin-top: 2px;
+}
+.gw-gopf-post-meta {
+  margin: -5px;
+}
+
+.ngg-gallery-thumbnail {
+  font-size: 13px;
+  line-height: 16px;
+  padding-bottom: 10px;
+}
+.gm-style-iw > div { overflow: hidden !important; }
+.gm-style-iw { overflow: hidden !important; }
+
+#main .widget-red {
+  background-color: #fff;
+}
+
+#main .widget-red a {
+  color: #1a4167;
+}
+
+.flexslider .slides img {
+  width: 100%; height: auto;}

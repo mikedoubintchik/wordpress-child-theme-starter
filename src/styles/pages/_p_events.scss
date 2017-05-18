@@ -1,0 +1,29 @@
+.post-type-archive-tribe_events, .single-tribe_events {
+  .column.column-narrow {
+    display: none !important;
+  }
+  .column.column-wide.column-last {
+    width: 95% !important;
+  }
+}
+
+.single-tribe_events .tribe-events-event-image {
+  width: 100%;
+
+  @include bp(large) {
+    max-width: 500px;
+    margin-bottom: 0;
+  }
+
+  @include bp(medium) {
+    max-width: 300px;
+  }
+
+  @include bp(small) {
+    max-width: 100%;
+  }
+
+  img {
+    margin-bottom: 0;
+  }
+}

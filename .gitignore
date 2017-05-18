@@ -1,0 +1,9 @@
+# Node Package Manager
+node_modules
+
+# IDE Editors
+.idea/
+
+# Gulp
+build/
+dist/
