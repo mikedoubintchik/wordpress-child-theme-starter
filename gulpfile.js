@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 
-// incude the plugins
+// include the plugins
 var sass = require('gulp-sass');
 var postcss = require('gulp-postcss');
 var autoprefixer = require('autoprefixer');
