@@ -51,11 +51,3 @@ $MQs: true;
     }
   }
 }
-
-/* USAGE */
-.sidebar {
-  width: 33.33%;
-  @include bp(small) {
-    width: 100%;
-  }
-}
