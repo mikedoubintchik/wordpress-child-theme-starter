@@ -22,7 +22,7 @@ var glob = require('gulp-sass-glob');
 var notify = require("gulp-notify");
 
 // Define server
-var server = 'wordpress';
+var server = 'example.dev';
 
 // declare file and folder paths
 var baseDir = 'src';
