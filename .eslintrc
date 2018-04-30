@@ -1,0 +1,84 @@
+// TODO: Reinstate linting rules!!!
+//{
+//  parser: "babel-eslint",
+//  env: {
+//    es6: true,
+//    browser: true,
+//    node: true,
+//    jquery: true,
+//    mocha: true
+//  },
+//  globals: {
+//    expect: true,
+//    sinon: true
+//  },
+//  parserOptions: {
+//    ecmaVersion: 6,
+//    sourceType: "module",
+//    ecmaFetures: {
+//      experimentalObjectRestSpread: true
+//    }
+//  },
+//  extends: ["eslint:recommended", "idiomatic"],
+//  "rules": {
+//    "array-bracket-spacing": [2, "never"],
+//    "brace-style": [2, "stroustrup"],
+//    "camelcase": ["error", { "properties": "always" }],
+//    "computed-property-spacing": [2, "never"],
+//    "indent": [2, 4, {"SwitchCase": 1}],
+//    "no-console": [1, {allow: ["warn", "error"]}],
+//    "no-extra-semi": 2,
+//    "no-unused-vars": ["error", { "vars": "all", "args": "none" }],
+//    "one-var": 0,
+//    "one-var-declaration-per-line": 0,
+//    "semi": [2, "always"],
+//    "spaced-comment": ["error", "always", {
+//      "line": {
+//        "markers": ["/"],
+//        "exceptions": ["-", "+"]
+//      },
+//      "block": {
+//        "markers": ["!"],
+//        "exceptions": ["*"],
+//        "balanced": true
+//      }
+//    }],
+//    "space-in-parens": [2, "never"],
+//    "vars-on-top": 0
+//  }
+//}
+
+{
+    parser: "babel-eslint",
+    env: {
+        es6: true,
+        browser: true,
+        node: true,
+        jquery: true,
+        mocha: true
+    },
+    globals: {
+        expect: true,
+        sinon: true
+    },
+    parserOptions: {
+        ecmaVersion: 6,
+        sourceType: "module",
+        ecmaFetures: {
+            experimentalObjectRestSpread: true
+        }
+    },
+    "rules": {
+        "quotes": [
+            2,
+            "single"
+        ],
+        "no-spaced-func": 2,
+        "camelcase": [
+            2,
+            {
+                "properties": "always"
+            }
+        ]
+    }
+}

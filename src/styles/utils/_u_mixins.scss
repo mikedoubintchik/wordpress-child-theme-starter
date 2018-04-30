@@ -1,6 +1,4 @@
-/*********************
-PLACEHOLDERS
-*********************/
+// Placeholders
 @mixin optional-at-root($sel) {
   @at-root #{if(not &, $sel, selector-append(&, $sel))} {
     @content;
@@ -22,40 +20,5 @@ PLACEHOLDERS
 
   @include optional-at-root(':-ms-input-placeholder') {
     @content;
-  }
-}
-
-/*********************
-BREAKPOINTS
-*********************/
-$MQs: true;
-
-@mixin bp($point) {
-  @if ($MQs) {
-    $bp-small: "(max-width: 480px)";
-    $bp-medium: "(max-width: 768px)";
-    $bp-large: "(min-width: 769px)";
-
-    @if $point == small {
-      @media #{$bp-small} {
-        @content;
-      }
-    } @else if $point == medium {
-      @media #{$bp-medium} {
-        @content;
-      }
-    } @else if $point == large {
-      @media #{$bp-large} {
-        @content;
-      }
-    }
-  }
-}
-
-/* USAGE */
-.sidebar {
-  width: 33.33%;
-  @include bp(small) {
-    width: 100%;
   }
 }
